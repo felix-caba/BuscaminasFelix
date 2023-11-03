@@ -2,20 +2,21 @@
 
 public class getSize {
 
-    public static int getSizeX(){
+    public static int X(){
         int x;
-        x = getInput.entry.nextInt();
+        x = getInput.getInt();
         return x;
     }
-    public static int getSizeY(){
+    public static int Y(){
         int y;
-        y = getInput.entry.nextInt();
+
+        y = getInput.getInt();
         return y;
     }
 
     public static int getSizeZ(){
         int z;
-        z = getInput.entry.nextInt();
+        z = getInput.getInt();
         return z;
     }
 

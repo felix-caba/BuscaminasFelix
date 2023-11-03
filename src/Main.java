@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[][] miArray =  creaArray(getSize.getSizeX(), getSize.getSizeY());
+        int[][] miArray =  creaArray(getSize.X(), getSize.Y());
 
         for (int[] ramArray : miArray){
             for (int numero: ramArray) {
@@ -25,7 +25,7 @@ public class Main {
             for (int j = 0; j <y ; j++) {
 
                 System.out.println("Introduce la posición" + i + " " + j);
-                arr[i][j] = getInput.entry.nextInt();
+                arr[i][j] = getInput.getInt();
 
             }
         }
