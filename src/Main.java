@@ -6,17 +6,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[][] miArray =  creaArray(getSize.X(), getSize.Y());
+        fillArray.start();
 
-        for (int[] ramArray : miArray){
-            for (int numero: ramArray) {
-                System.out.println(numero);
 
-            }
-        }
     }
 
+
+
+
+    }
+
+
+   /*
     public static int[][] creaArray(int x, int y){
+
+
+
+
 
         int[][] arr = new int[x][y];
         
@@ -34,10 +40,10 @@ public class Main {
     }
 
 
+*/
 
 
 
 
-}
 
 

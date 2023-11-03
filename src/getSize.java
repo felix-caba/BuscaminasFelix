@@ -2,22 +2,48 @@
 
 public class getSize {
 
+    static int x = 0;
+    static int y = 0;
+    static int z = 0;
+    static int dim = 0;
+
     public static int X(){
-        int x;
-        x = getInput.getInt();
+
+        if (x==0){
+            System.out.println("Introduce las filas X: ");
+            x = getInput.getInt();
+        }
+
         return x;
+
     }
     public static int Y(){
-        int y;
+        if (y==0){
+            System.out.println("Introduce las columnas Y: ");
+            y = getInput.getInt();
+        }
 
-        y = getInput.getInt();
         return y;
     }
 
-    public static int getSizeZ(){
-        int z;
-        z = getInput.getInt();
+    public static int Z(){
+
+        if (z==0){
+            System.out.println("Introduce el fondo Z: ");
+            z = getInput.getInt();
+        }
+
         return z;
+    }
+
+    public static int dim(){
+
+        if (dim==0){
+            System.out.println("Introduce la dimension (Máx 3): ");
+            dim = getInput.getInt();
+        }
+
+        return dim;
     }
 
 }
