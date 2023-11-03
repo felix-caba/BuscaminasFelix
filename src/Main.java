@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    
+
 
     public static void main(String[] args) {
 
@@ -15,8 +15,6 @@ public class Main {
             }
         }
     }
-
-
 
     public static int[][] creaArray(int x, int y){
 
