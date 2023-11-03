@@ -2,9 +2,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+    
+
     public static void main(String[] args) {
 
-        int[][] miArray =  creaArray(getSizeX(), getSizeY());
+        int[][] miArray =  creaArray(getSize.getSizeX(), getSize.getSizeY());
 
         for (int[] ramArray : miArray){
             for (int numero: ramArray) {
@@ -15,7 +17,6 @@ public class Main {
     }
 
 
-    private static Scanner input = new Scanner(System.in);
 
     public static int[][] creaArray(int x, int y){
 
@@ -26,32 +27,16 @@ public class Main {
             for (int j = 0; j <y ; j++) {
 
                 System.out.println("Introduce la posición" + i + " " + j);
-                arr[i][j] = input.nextInt();
+                arr[i][j] = getInput.entry.nextInt();
 
             }
-
         }
 
         return arr;
     }
 
 
-    public static int getSizeX(){
-        int x;
-        x = input.nextInt();
-        return x;
-    }
-    public static int getSizeY(){
-        int y;
-        y = input.nextInt();
-        return y;
-    }   
 
-    public static int getSizeZ(){
-        int z;
-        z = input.nextInt();
-        return z;
-    }
 
 
 
