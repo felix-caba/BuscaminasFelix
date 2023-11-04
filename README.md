@@ -1,8 +1,8 @@
-# creadorArrays
-Proyecto de Java que crea Arrays para almacenar datos en varias dimensiones.
+# Buscaminas
+Proyecto de Java de Félix Caba Martin que proporciona un buscaminas actualmente sin GUI, permite personalizar la tabla en 
+mas de 2 dimensiones; columnas, filas y fondo personalizable.
 
 ## ¿Como usar?
 
-Introduce primero el número de filas y luego el de columnas.
-Luego introduce los datos numéricos.
+WIP
 

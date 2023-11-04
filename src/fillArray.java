@@ -7,10 +7,15 @@ public class fillArray {
         switch (getSize.dim()){
             case 1:
 
+                int[] arrayDim1 = createArray.arr1();
+
                 for (int i = 0; i < getSize.X() ; i++) {
-                    System.out.println("Introduce el espacio número "+(i+1)+ " :");
-                    createArray.arr1()[i] = getInput.getInt();
+
+                    arrayDim1[i] = generator.randomGen10(50);
+
                 }
+
+                System.out.println(Arrays.toString(arrayDim1));
                 break;
 
             case 2:
@@ -34,7 +39,10 @@ public class fillArray {
                         for (int k = 0; k <getSize.Z() ; k++) {
 
                             System.out.println("Introduce el espacio " + (i+1) + " : "+ (j+1) + " : " + (k+1));
-                            createArray.arr3()[i][j][k] = getInput.getInt();
+                            //createArray.arr3()[i][j][k] = randomGen.random(2);
+
+
+
 
                         }
                     }
