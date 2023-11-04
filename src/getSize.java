@@ -7,6 +7,9 @@ public class getSize {
     static int z = 0;
     static int dim = 0;
 
+
+    // EL GET SIZE SOLO FUNCIONA UNA VEZ ACEPTANDO INPUTS. EL RESTO DE VECES, NO FUNCIONARÁY SOLO RETORNARA VALOR
+
     public static int X(){
 
         if (x==0){
@@ -18,6 +21,9 @@ public class getSize {
 
     }
     public static int Y(){
+
+
+
         if (y==0){
             System.out.println("Introduce las columnas Y: ");
             y = getInput.getInt();

@@ -8,40 +8,12 @@ public class Main {
 
         fillArray.start();
 
-
-    }
-
-
-
-
-    }
-
-
-   /*
-    public static int[][] creaArray(int x, int y){
-
-
-
-
-
-        int[][] arr = new int[x][y];
         
-        for (int i = 0; i < x ; i++) {
 
-            for (int j = 0; j <y ; j++) {
 
-                System.out.println("Introduce la posición" + i + " " + j);
-                arr[i][j] = getInput.getInt();
-
-            }
-        }
-
-        return arr;
     }
 
-
-*/
-
+}
 
 
 
